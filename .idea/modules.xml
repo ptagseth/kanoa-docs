@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/kanoa-software.iml" filepath="$PROJECT_DIR$/.idea/kanoa-software.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/kanoa-docs.iml" filepath="$PROJECT_DIR$/.idea/kanoa-docs.iml" />
     </modules>
   </component>
 </project>

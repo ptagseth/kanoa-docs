@@ -11,7 +11,7 @@ const config = {
   favicon: 'img/kanoa-icon.png',
 
   // Set the production url of your site here
-  url: 'https://kanoa-software.netlify.app/',
+  url: 'https://kanoa-docs.netlify.app/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -75,7 +75,7 @@ const config = {
         // Public API key: it is safe to commit it
         apiKey: '0b6575cc05de135d70cd658082f4c784',
 
-        indexName: 'kanoa-software',
+        indexName: 'kanoa-docs',
 
         // Optional: see doc section below
         contextualSearch: true,

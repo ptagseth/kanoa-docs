@@ -12,9 +12,6 @@ We have provded a comments area at the bottom of each page, the intent of which 
 Kanoa MES is a suite of smart manufacturing tools powered by Inductive Automation's Ignition platform. 
 Kanoa's solutions are designed to provide your factory with new production management, analysis, and control tools that provide value from day 1 and continue to grow with your team and your business. 
 
-![welcome](/img/screenshots/asset-cards.png)<br />
-
-
 **What We Are Not**
 * A closed, proprietary solution with an egregious licensing model that can only be configured up to a certain point, and then forces you to change the way you do business or throw your investment away.
 * A set of tools that leave you pretty much building a custom MES solution that is hard to support.

@@ -1,7 +1,7 @@
 ---
+sidebar_class_name: hidden
 id: api-intro
 title: Kanoa API
-sidebar_position: 1
 hide_table_of_contents: true 
 ---
 

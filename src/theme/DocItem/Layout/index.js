@@ -52,7 +52,7 @@ export default function DocItemLayout({children}) {
             <br></br>
                 <Giscus
                 id="comments"
-                repo="ptagseth/kanoa-software"
+                repo="ptagseth/kanoa-docs"
                 repoId="R_kgDOJy79jg"
                 category="General"
                 categoryId="DIC_kwDOJy79js4CcxNR"
