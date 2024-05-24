@@ -1,6 +1,8 @@
 ---
+id: kpim
 title: KPI Matrix
-sidebar_position: 9
+sidebar_position: 8
+sidebar_class_name: hidden
 hide_table_of_contents: true
 ---
 
