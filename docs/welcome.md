@@ -8,4 +8,4 @@ hide_table_of_contents: true
 
 ### Welcome to Kanoa Docs
 
-This is where we provide documentation for Kanoa custom solutions.
+This site contains Kanoa documentation for custom client solutions.
