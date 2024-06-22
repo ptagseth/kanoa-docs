@@ -10,6 +10,8 @@ import MobileView from '/img/db-mobile-preview.png';
 The Dashboard preview will show the actual view of the created dashboard - in the selected view.
 Click on each button in the top bar for how the dashboard will render using different devices.  Additional views can be added as needed.
 
+![Dashboard Preview ](/img/db-dashboard-preview.png)
+
 ### Dashboard View
 This view is for standard monitors, it is customizable.
  

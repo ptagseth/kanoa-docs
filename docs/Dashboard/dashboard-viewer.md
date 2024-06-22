@@ -9,6 +9,8 @@ hide_table_of_contents: true
 ## Dashboard Viewer
 Use the Dashboard Selector to select a dashboard to view.  If this is a dashboard you will view frequently, you can add it to your favorites.  Dashboards can be viewed using many different media, including mobile and tablet devices.
 
+![Dashboard Viewer ](/img/db-dashboard-viewer.png)
+
 ### Select Dashboard
 Click the top left icon in the top bar (ribbon) for the dashboard selector to view the folders and dashboards available.  Select the dashboard to view.
 
