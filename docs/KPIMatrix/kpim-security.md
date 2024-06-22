@@ -25,8 +25,7 @@ Click the logout icon next to the login icon to logout of the application.
 The roles granted to the users of the application have different permissions. 
 
 #### Division Admin
-The Division Admin can view all matrices, both public and private. They can create, edit and delete their own matrices.
-The can delete any matrix, both public and private.
+The Division Admin can view all matrices, both public and private. They can create, edit and delete any matrix.
 
 #### Site Admin
 The Site Admin can view all public matrices as well as all their own.  They can view any private matrix within their own site. They can create, edit and delete their own matrices.  They can delete any matrix within their own site.

@@ -9,20 +9,20 @@ hide_table_of_contents: true
 
 ### Matrix view
 
-In the KPI Matrix view - you will be able to see the data from the selected Tags.  There are options for data intervals, how to group the data, and for how the data will be presented.
+In the KPI Matrix view - you will be able to see the matrix as configured with the data from the selected Tags.  There are options for data intervals, how to group the data, and for how the data will be presented.
 
 
 ![kpi-matrix](/img/kpi-matrix/ViewMatrix.png)
 
 **Normal Use Case:**
-    1. Select the Matrix
+    1. Select a Matrix
     2. Set the time period for data
-    3. Set data interval (default 1 hr)
+    3. Set data aggregation interval (default 1 hr)
     4. Check choices for Ignore Zeros and Show Summary
     5. Set Row vs Column view
     6. Click Get Data - bring in data
-    7. Select Data tag to inspect further
-    8. Click Trend View
+    7. Select Data tag(s) to inspect further
+    8. Click Trend Views
 
 ![kpi-matrix](/img/kpi-matrix/MatrixButtons.png)
 
@@ -30,22 +30,22 @@ In the KPI Matrix view - you will be able to see the data from the selected Tags
 ### Filters and Data View Parameters
 - Matrix Selector - select the Matrix to be presented.  Use the search function to search in folders.
 - Data period - select the time period for the data to be presented - choices are today, yesterday, this week, last week, this month, etc.  Or set a custom time period.  Set the start date and time and end date and time.
-- Data Interval - select the data interval for the aggregated data.  The data is aggregated in intervals of 1 hr, 30 mins, 15 mins
+- Data Aggregation Interval - select the data interval for the aggregated data.  The data is aggregated in intervals of 1 hr, 30 mins, 15 mins. 1 hour is the default.
 - Group by Shift, Run or Crew - this to sort by a specific Shift, Run or Crew.
-- Group by Matrix Group. This can be utilized if the Matrix data is organized by separate Matrix groups.
+- Group by Matrix Group. This can be utilized to organize the display of Matrix data in groups.
 - Ignore Zeros - when this is checked, zero values will be ignored.  If all values for a tag are zero, the tag will not be displayed.
 - Refresh Options / Auto Update - automatically update the table data whenever a filter parameter changes.
 - Full Item Path - this will show the full data path when checked
-- Item Info - this will show the data source (tag, calculation) and default aggregation mode when enabled.
-- Statistics - summarized values for the chosen data will be presented when enabled.
-- Item Spec - when enabled this will show the data item specifications set for control limits, LCL and UCL.  When no limits are set, they are calculated from data values.
+- Item Info - this will show the data source (tag, calculation), unit type and default aggregation mode when enabled.
+- Statistics - this will show the min, max, average, standard deviation, the calculated LCL and UCLs and the sum of the data in range.
+- Item Spec - when enabled this will show the data item specifications set for control limits; LSL, LCL, target, and UCL and USL. 
 
 ### Alerts
 - KPI Matrix data alerts - alerts are set when data are outside calculated or spec control limits.  Data values outside limits are color coded in the table.
 
 
 ### Left Menu icons
-
+- Get Data - initiate a new data refresh.
 - Clear table - Click this icon to clear the displayed data.
 - Export data - Click the export button to export the data displayed in Excel format.
 - Trend View - Select a single data tag and plot the trend over a time period.

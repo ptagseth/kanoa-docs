@@ -5,6 +5,7 @@ sidebar_position: 5
 hide_table_of_contents: true
 ---
 
+
 ## Tag History Browser
 
 The Tag Browser provides a view to the database tag history - to review tag data for KPI Matrix plot usage.
