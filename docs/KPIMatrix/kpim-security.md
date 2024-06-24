@@ -5,18 +5,11 @@ sidebar_position: 2
 hide_table_of_contents: true
 ---
 
-## Login
+### Login
 To login, in the upper right corner - click the login icon.
 Use your ID and Password to login to the application.
 
-
 ![kpi-matrix](/img/kpi-matrix/UpperRightMenu.png)
-
-### User Permissions
-Once logged in, you can hover over the login icon and see your current roles for the application.
-
-
-![kpi-matrix](/img/kpi-matrix/MatrixPermissions.png)
 
 ### Logout
 Click the logout icon next to the login icon to logout of the application.

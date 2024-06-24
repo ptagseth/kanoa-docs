@@ -5,24 +5,22 @@ sidebar_position: 4
 hide_table_of_contents: true
 ---
 
-## View a Matrix
-
-### Matrix view
 
 In the KPI Matrix view - you will be able to see the matrix as configured with the data from the selected Tags.  There are options for data intervals, how to group the data, and for how the data will be presented.
 
 
 ![kpi-matrix](/img/kpi-matrix/ViewMatrix.png)
 
-**Normal Use Case:**
-    1. Select a Matrix
-    2. Set the time period for data
-    3. Set data aggregation interval (default 1 hr)
-    4. Check choices for Ignore Zeros and Show Summary
-    5. Set Row vs Column view
-    6. Click Get Data - bring in data
-    7. Select Data tag(s) to inspect further
-    8. Click Trend Views
+#### Sample Use Case:
+1. Select a Matrix
+2. Set the time period for data
+3. Set data aggregation interval (default 1 hr)
+4. Check choices for Ignore Zeros and Show Summary
+5. Set Row vs Column view
+ 6. Click Get Data - bring in data
+7. Select Data tag(s) to inspect further
+8. Click Trend Views
+
 
 ![kpi-matrix](/img/kpi-matrix/MatrixButtons.png)
 
@@ -51,12 +49,16 @@ In the KPI Matrix view - you will be able to see the matrix as configured with t
 - Trend View - Select a single data tag and plot the trend over a time period.
 - Production View - Select multiple data tags to plot the views over a time period.
 
+## SPC charts
+SPC (Statistical Process Control) is method of measuring and controlling quality by monitoring the manufacturing process. Quality data is collected in the form of product or process measurements or readings from various machines or instrumentation. The data is collected and used to evaluate, monitor and control a process. SPC is an effective method to drive continuous improvement.
+We provide two different charts with an insight to the data, with analysis rules included to point out data abnormalities, inconsistencies and other non-random conditions:
+
 ### Trend View
 Trend Views displays a single tag over a chosen time period.
-- Time Series - Select the Time Series format to plot the data in a time series.  Use the Nelson and WECO rules to determine if the graph is unpredictable.
+- Time Series - Select the Time Series format to plot the data in a time series.  Nelson and WECO rules applies to determine data abnormalities.
   - Nelson Rules are a method to determine if some measured variable is out of control (unpredictable vs consistent).
         Read more about the Nelson Rules here:  https://en.wikipedia.org/wiki/Nelson_rules
-  - WECO Rules to detect out of control r non-random conditions in your control charts.
+  - WECO Rules are used to detect out of control, non-random conditions in your control charts.
     Read more about the WECO (Western Electric) Rules here:  https://en.wikipedia.org/wiki/Western_Electric_rules
 - Bar Chart - Select the Bar format for the data to be displayed in bar chart.
 - Histogram - select a data tag to show the distribution of the data.  Select Min and Max values to limit outliers.
@@ -64,7 +66,6 @@ Trend Views displays a single tag over a chosen time period.
 - Export data - click the export button to export the data in Excel format.
 
 ![kpi-matrix](/img/kpi-matrix/TrendView.png)
-
 
 ### Production View
 This to view multiple plots of aggregated data over a chosen time period.  Select multiple data sets (use CTRL button to select multiple sets) to compare and click the Production View icon.  Select the desired view. Or use the selection tree to pick the data sets to plot.
