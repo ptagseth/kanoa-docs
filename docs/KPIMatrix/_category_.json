@@ -1,8 +1,0 @@
-{
-    "label": "KPI Matrix",
-    "position": 2,
-    "link": {
-      "type": "generated-index",
-      "description": "The KPI Matrix is a tool to provide insight to production tag data to display your KPIs"
-    }
-}

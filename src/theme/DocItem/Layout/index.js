@@ -11,7 +11,6 @@ import DocItemTOCDesktop from '@theme/DocItem/TOC/Desktop';
 import DocItemContent from '@theme/DocItem/Content';
 import DocBreadcrumbs from '@theme/DocBreadcrumbs';
 import styles from './styles.module.css';
-import Giscus from '@giscus/react';
 import { useColorMode } from '@docusaurus/theme-common';
 /**
  * Decide if the toc should be rendered, on mobile or desktop viewports
@@ -50,20 +49,6 @@ export default function DocItemLayout({children}) {
           <DocItemPaginator />
         </div>
             <br></br>
-                <Giscus
-                id="comments"
-                repo="ptagseth/kanoa-docs"
-                repoId="R_kgDOJy79jg"
-                category="General"
-                categoryId="DIC_kwDOJy79js4CcxNR"
-                mapping="pathname"
-                reactionsEnabled="1"
-                emitMetadata="0"
-                inputPosition="top"
-                theme={colorMode}
-                lang="en"
-                loading="lazy"
-            />
       </div>
       {docTOC.desktop && <div className="col col--3">{docTOC.desktop}</div>}
     </div>

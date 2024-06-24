@@ -1,6 +1,6 @@
 ---
 id: kpim-security
-title: Login and Roles
+title: Security
 sidebar_position: 2
 hide_table_of_contents: true
 ---

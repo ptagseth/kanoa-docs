@@ -5,9 +5,7 @@ sidebar_position: 3
 hide_table_of_contents: true
 ---
 
-## Create and Edit a KPI Matrix
 
-### Matrix Editor
 To create or edit a Matrix - start by open the left menu and click the Matrix Editor.  This will open a view to the Matrix editor.
 
 ![kpi-matrix](/img/kpi-matrix/KPIMatrixEditor.png)
