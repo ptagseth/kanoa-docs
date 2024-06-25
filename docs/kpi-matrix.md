@@ -1,5 +1,5 @@
 ---
-id: kpim-kpi-matrix
+id: kpi-matrix
 title: KPI Matrix Overview
 sidebar_position: 1
 hide_table_of_contents: true
