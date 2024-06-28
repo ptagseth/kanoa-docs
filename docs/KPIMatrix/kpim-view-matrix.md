@@ -51,24 +51,25 @@ In the KPI Matrix view - you will be able to see the matrix as configured with t
 
 ## SPC charts
 SPC (Statistical Process Control) is method of measuring and controlling quality by monitoring the manufacturing process. Quality data is collected in the form of product or process measurements or readings from various machines or instrumentation. The data is collected and used to evaluate, monitor and control a process. SPC is an effective method to drive continuous improvement.
-We provide two different charts with an insight to the data, with analysis rules included to point out data abnormalities, inconsistencies and other non-random conditions:
+We provide two different charts with an insight to the data, with analysis rules included to point out data abnormalities, inconsistencies and other non-random conditions.
 
 ### Trend View
-Trend Views displays a single tag over a chosen time period.
-- Time Series - Select the Time Series format to plot the data in a time series.  Nelson and WECO rules applies to determine data abnormalities.
-  - Nelson Rules are a method to determine if some measured variable is out of control (unpredictable vs consistent).
-        Read more about the Nelson Rules here:  https://en.wikipedia.org/wiki/Nelson_rules
-  - WECO Rules are used to detect out of control, non-random conditions in your control charts.
-    Read more about the WECO (Western Electric) Rules here:  https://en.wikipedia.org/wiki/Western_Electric_rules
-- Bar Chart - Select the Bar format for the data to be displayed in bar chart.
-- Histogram - select a data tag to show the distribution of the data.  Select Min and Max values to limit outliers.
-- Table - Select the Table format for data in raw table format
-- Export data - click the export button to export the data in Excel format.
+.The Trend View allows users to analyze data over time through time series or histograms. It also provides the functionality to apply Statistical Process Control (SPC) rules against collected data, enhancing the understanding of trends and patterns. The trend view can be viewed by selecting a data point and clicking the 'Trend View' button. Once in the trend view, the datapoint being trended can be changed by clicking on a different datapoint in the table or using the tree selector to select a different datapoint.
+Nelson and Western Electric SPC Rules can be applied to any trend and any rule violations are highlighted on the chart.
+
+Users can export the trend data to a CSV file for further analysis
+
+The charting can be switched between...
+
+- Time Series: Displays a time series chart of the check sheet data, including calculated upper and lower control limits.
+- Histogram: Shows a histogram of all collected data, with hover-over functionality for detailed counts in each bar.
+- Bar Chart: Shows a Bar Chart of all collected data, with hover-over functionality for detailed counts in each bar.
+- Tabular: displays the raw data in a table
 
 ![kpi-matrix](/img/kpi-matrix/TrendView.png)
 
 ### Production View
-This to view multiple plots of aggregated data over a chosen time period.  Select multiple data sets (use CTRL button to select multiple sets) to compare and click the Production View icon.  Select the desired view. Or use the selection tree to pick the data sets to plot.
+Use the production view for multiple plots of aggregated data over a chosen time period.  Select multiple data sets (use CTRL button to select multiple sets) to compare and click the Production View icon.  Select the desired view. Or use the selection tree to pick the data sets to plot.
 - Time Series - select the Time Series format to plot the data in a time series.  Select the Separate plot box to separate the data series.
 - Bar Chart - Select the Bar format for the data to be displayed in bar chart for comparison.  Click the Separate Plot to separate the data series.
 - Table - Select the Table format for data in raw table format
