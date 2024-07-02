@@ -11,3 +11,10 @@ The KPI Matrix functionality is a tool to provide insight to production KPIs.  T
 :::
 
 ![kpi-matrix](/img/kpi-matrix/KPIMatrixView.png)
+
+
+### Get Started
+
+The KPI Matrix application will be found at the Ignition Gateway in your environment.  Click the KPI Matrix icon to get started:
+
+![kpi-matrix](/img/kpi-matrix/kpi-matrix-start.png)

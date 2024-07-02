@@ -10,6 +10,8 @@ The Dashboard functionality is a customizable collection of widgets that will di
 ![Dashboard](/img/db-dashboard-viewer.png)
 
 
-The dashboard application will be found at the Perspective Launcher as something similar like this:
+### Get Started
+
+The Dashboard application will be found at the Ignition Gateway in your environment.  Click the Dashboard icon to get started:
 
 ![Dashboard](/img/db-dashboard-start.png)
